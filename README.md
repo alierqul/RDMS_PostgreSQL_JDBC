@@ -2,7 +2,7 @@
 
 ## JSP Sayfalarına giriş İlk Uygulama oluşturma. ##
 
-JSP, Html sayfaları içerisinde JAVA kodları çalıştırdığımız sayfalardır. Sadece Htlm kullanılacak diye bir şart yok. Bu örneğimizde biraz Bootstrap kodlarından da yardım alıcaz.
+JSP, Html sayfaları içerisinde JAVA kodları çalıştırdığımız sayfalardır. Sadece Htlm kullanılacak diye bir şart yok. Bu örneğimizde biraz Bootstrap kodlarından da yardım alıyoruz.
 Öncelikle sayfanın en üstüne karakter sorunu yaşamamak için
 
 	<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
@@ -35,8 +35,11 @@ java kodlarını her zaman
 
 	<% out.println("Hello World..."); %>
 	
-şeklinde yazıyoruz.Doğrudan ekrana yazdırmak istersek
-	<%=statement.getString(""mov); %>
+şeklinde yazıyoruz.
+
+![ScreenShot](https://github.com/alierqul/RDMS_PostgreSQL_JDBC/raw/master/ScreenShot.PNG)
+
+
 
 
 # Lisance #
